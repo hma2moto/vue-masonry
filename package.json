@@ -1,0 +1,22 @@
+{
+  "name": "vue-masonry",
+  "version": "0.0.1",
+  "main": "vue-masonry.js",
+  "description": "Masonry plugin for Vue.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "lodash": "*",
+    "masonry-layout": "^3.3.2"
+  },
+  "devDependencies": {
+    "vue": "^1.0.3"
+  },
+  "scripts": {
+    "build": "browserify -e example/example.js -o example/example.build.js",
+    "dev": "watchify -e example/example.js -o example/example.build.js"
+  }
+}
